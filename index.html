@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tripadvisor</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header class="header">
+      <img src="./assets/logo.svg" alt="Logo" class="logo" />
+      <div class="header__content">
+        <p class="cursor header__content-p">Discover</p>
+        <p class="cursor header__content-p">Trips</p>
+        <p class="cursor header__content-p">Review</p>
+        <p class="cursor header__content-p">More</p>
+      </div>
+      <div class="header__content2 cursor">
+        <p>
+          <img src="./assets/internet.png" alt="internet" id="internet" /> | INR
+        </p>
+        <button class="cursor">Sign up</button>
+      </div>
+    </header>
+    <!--where to sections-->
+    <section class="main overall">
+      <h1 class="main__content">Where to?</h1>
+      <div class="main__content2 cursor">
+        <p class="hovergray2">
+          <img src="./assets/home.png" alt="home" /> Search All
+        </p>
+        <p class="hovergray2">
+          <img src="./assets/bed.png" alt="bed" /> Hotels
+        </p>
+        <p class="hovergray2">
+          <img src="./assets/roll-film.png" alt="things" /> Things
+        </p>
+        <p class="hovergray2">
+          <img
+            src="./assets/cutlery-set-of-three-pieces.png"
+            alt="knife&spoon"
+          />
+          Restaurants
+        </p>
+        <p class="hovergray2">
+          <img src="./assets/keychain-with-key.png" alt="key" /> Holiday Homes
+        </p>
+      </div>
+      <div class="top">
+        <div class="navbar__s2">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search for anything here. Tech, Business, Art"
+            class="cursor"
+          />
+          <button class="search cursor">Search</button>
+        </div>
+      </div>
+    </section>
+
+    <!--section img-->
+    <section class="header-img overall">
+      <div class="header-img__div">
+        <img
+          src="./assets/header-img/home-gai-entry-dv (1).png"
+          class="img"
+          alt="home"
+        />
+      </div>
+
+      <div class="section-img-container">
+        <div class="section-img-container__content1">
+          <p class="section-img-container__content1-sectionimgp">
+            Powered by AI
+          </p>
+          <p class="section-img-container__content1-sectionimgbtn">Beta</p>
+        </div>
+        <div class="section-img-container__content2">
+          <h1>Build a trip <br />in minutes</h1>
+          <p>
+            <strong
+              >Get a personalised itinerary just for <br />you, guided by
+              traveller tips and <br />reviews.</strong
+            >
+          </p>
+          <button class="hoverpurple cursor">
+            <i class="fa-solid fa-location-dot"></i> Start a trip with AI
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--section 2 banner-->
+    <section class="discover-banner overall">
+      <div class="discover-banner-container1 cursor">
+        <div class="discover-banner-container__content1">
+          <img src="./assets/banner1/dsc-0685-largejpg.jpg" alt="banner1" />
+        </div>
+        <div class="banner-container__content2">
+          <p class="banner-container__content2-box">
+            In partnership with Hiroshima Tourism (HIT)
+          </p>
+          <p class="banner-container__content2-para1">
+            <strong>Discover Hiroshima Perefecture</strong>
+          </p>
+          <p class="banner-container__content2-para2">
+            Find out why travellerslike you are raving about Hiroshima
+            perefecture
+          </p>
+        </div>
+      </div>
+      <div class="discover-banner-container2">
+        <button class="hoverblack cursor"><strong>Explore</strong></button>
+      </div>
+    </section>
+
+    <!--section 3 award-->
+    <section class="award overall">
+      <div class="award-container cursor">
+        <h1>2024’s award-winning shores</h1>
+        <p>Travellers’ Choice Awards Best of the Best Beaches</p>
+        <div class="award-container__img">
+          <div class="award-container__img-msg">
+            <img
+              src="./assets/awardsection/caption.jpg"
+              alt="img"
+              class="hoverimg"
+            />
+            <h1 class="award-container__img-msg-1">Asia Beaches</h1>
+          </div>
+
+          <div class="award-container__img-msg">
+            <img
+              src="./assets/awardsection/caption2.jpg"
+              alt="img2"
+              class="hoverimg"
+            />
+            <h1 class="award-container__img-msg-1">Caribean <br />Beaches</h1>
+          </div>
+          <div class="award-container__img-msg">
+            <img
+              src="./assets/awardsection/caption3.jpg"
+              alt="img3"
+              class="hoverimg"
+            />
+            <h1 class="award-container__img-msg-1">Europe Beaches</h1>
+          </div>
+          <div class="award-container__img-msg">
+            <img
+              src="./assets/awardsection/caption4.jpg"
+              alt="img"
+              class="hoverimg"
+            />
+            <h1 class="award-container__img-msg-1">
+              South Pacific <br />Beaches
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section 4 you might like-->
+    <section class="you-might overall">
+      <h1 class="you-might__h1">You might like these</h1>
+      <p class="you-might__p">More things to do in Ubud</p>
+      <div class="you-might-container cursor">
+        <div class="you-might__card">
+          <img
+            src="./assets/you might/caption1.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="you-might__card-imglogo">
+            <img
+              src="./assets/top-destination/TC_badge_yellow.svg"
+              alt="logo"
+              class="imglogo"
+            />
+          </div>
+          <h3>Tanah Lot and North Bali Tour: <br />Scenic Journey</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>1,867</p>
+          </div>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/you might/caption.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h3>All-Inclusive Ubud Tour</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>1,867</p>
+          </div>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/you might/caption2.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="you-might__card-imglogo">
+            <img
+              src="./assets/top-destination/TC_badge_yellow.svg"
+              alt="logo"
+              class="imglogo"
+            />
+          </div>
+          <h3>
+            Best of Bali Waterfalls: <br />Tibumana, Tukad Cepung and
+            <br />Tegenungan
+          </h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>1,867</p>
+          </div>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/you might/caption3.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="you-might__card-imglogo">
+            <img
+              src="./assets/top-destination/TC_badge_yellow.svg"
+              alt="logo"
+              class="imglogo"
+            />
+          </div>
+          <h3>Nusa Penida All-Inclusive Day <br />Trip</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>1,867</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section 5 top experience-->
+    <section class="you-might overall">
+      <h1 class="you-might__h1">Top experiences on Tripadvisor</h1>
+      <p class="you-might__p">The best tours, activities and tickets</p>
+      <div class="you-might-container cursor">
+        <div class="you-might__card">
+          <img
+            src="./assets/top-experience/caption1.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="you-might__card-imglogo">
+            <img
+              src="./assets/top-destination/TC_badge_yellow.svg"
+              alt="logo"
+              class="imglogo"
+            />
+          </div>
+          <h3>All-Inclusive Ubud Tour</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>1,867</p>
+          </div>
+          <p style="padding-top: 4px">from $7698 per adult</p>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/top-experience/caption.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h3>Tokyo 6hr Private Tour with <br />Government-Licensed Guide</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>4,867</p>
+          </div>
+          <p style="padding-top: 4px">from ₹11,874 per adult</p>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/top-experience/caption2.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="you-might__card-imglogo">
+            <img
+              src="./assets/top-destination/TC_badge_yellow.svg"
+              alt="logo"
+              class="imglogo"
+            />
+          </div>
+          <h3>Lion City Bike Tour of Singapore</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>9,469</p>
+          </div>
+          <p style="padding-top: 4px">from ₹5,410 per adult</p>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/top-experience/caption3.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h3>Private Taj Mahal Tour from Delhi by Car</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>5,007</p>
+          </div>
+          <p style="padding-top: 4px">from ₹428 per adult</p>
+        </div>
+      </div>
+    </section>
+
+    <!--section 6 perfect sakura-->
+    <section class="you-might overall">
+      <h1 class="you-might__h1">Find the perfect sakura viewing spot</h1>
+      <p class="you-might__p">
+        These parks and gardens are great for a picnic under the cherry trees
+      </p>
+      <div class="you-might-container cursor">
+        <div class="you-might__card">
+          <img
+            src="./assets/perfect sakura/caption (1).jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="you-might__card-imglogo">
+            <img
+              src="./assets/top-destination/TC_badge_yellow.svg"
+              alt="logo"
+              class="imglogo"
+            />
+          </div>
+          <h3>Shinjuku Gyoen National Garden</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>6,867</p>
+          </div>
+          <p style="padding-top: 4px; color: gray">Gardens</p>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/perfect sakura/park.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="you-might__card-imglogo">
+            <img
+              src="./assets/top-destination/TC_badge_yellow.svg"
+              alt="logo"
+              class="imglogo"
+            />
+          </div>
+          <h3>Yeouido Park</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>4,867</p>
+          </div>
+          <p style="padding-top: 4px; color: gray">Parks</p>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/perfect sakura/caption.jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <h3>Osaka Castle Park</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>6,477</p>
+          </div>
+          <p style="padding-top: 4px; color: gray">Parks</p>
+        </div>
+
+        <div class="you-might__card">
+          <img
+            src="./assets/perfect sakura/caption (2).jpg"
+            class="you-might__card-img hoverimg"
+            alt="img"
+          />
+          <div class="you-might__card-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="you-might__card-imglogo">
+            <img
+              src="./assets/top-destination/TC_badge_yellow.svg"
+              alt="logo"
+              class="imglogo"
+            />
+          </div>
+          <h3>Yangmingshan National Park</h3>
+          <div class="you-might__card-icon">
+            <div class="you-might__card-iconpackage">
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+              <img src="./assets/you might/round.png" alt="icon" />
+            </div>
+            <p>1,424</p>
+          </div>
+          <p style="padding-top: 4px; color: gray">National Parks</p>
+        </div>
+      </div>
+    </section>
+
+    <!--section 7 banner-->
+    <!--section img-->
+    <section class="banner-img overall cursor">
+      <div class="banner-img__div">
+        <img
+          src="./assets/perfect sakura/caption4.jpg"
+          class="img"
+          alt="home"
+        />
+      </div>
+
+      <div class="banner-img-container">
+        <div class="banner-img-container__content1">
+          <p class="banner-img-container__content1-sectionimgp">
+            In parternership with Go USA
+          </p>
+          <p class="banner-img-container__content1-sectionimgbtn">Beta</p>
+        </div>
+        <div class="banner-img-container__content2">
+          <div>
+            <h1>See something you love? Click the heart to save it</h1>
+          </div>
+          <div class="banner-img-container__content2-btn">
+            <p>And see all your saved travel ideas on a map</p>
+            <button class="hoverblack">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section 8 more to explore-->
+    <section class="explore-more">
+      <div class="explore-more__container overall">
+        <h1>More to explore</h1>
+        <div class="explore-more__container-img cursor">
+          <div class="explore-more__container-img-content">
+            <img
+              src="./assets/more to explore/img1.jpg"
+              alt="img"
+              class="hoverimg"
+            />
+
+            <p>
+              <strong
+                >Hong Kong's best hits: Find the perfect <br />day
+                itinerary</strong
+              >
+            </p>
+          </div>
+
+          <div class="explore-more__container-img-content">
+            <img
+              src="./assets/more to explore/img2.jpg"
+              alt="img"
+              class="hoverimg"
+            />
+            <p>
+              <strong
+                >8 lesser-known spots for the best <br />Sydney harbour
+                views</strong
+              >
+            </p>
+          </div>
+
+          <div class="explore-more__container-img-content">
+            <img
+              src="./assets/more to explore/img3.jpg"
+              alt="img"
+              class="hoverimg"
+            />
+            <p>
+              <strong>3 days in Osaka: The perfect itinerary</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section 9 top destination-->
+    <section class="award overall">
+      <div class="award-container">
+        <h1>Top destinations for your next holiday</h1>
+        <p>Here's where your fellow travellers are headed</p>
+        <div class="award-container__img cursor">
+          <div class="award-container__img-msg">
+            <img
+              src="./assets/top-destination/caption.jpg"
+              alt="img"
+              class="hoverimg"
+            />
+            <h1 class="award-container__img-msg-1">Tokyo, Japan</h1>
+          </div>
+          <div class="award-container__img-msg">
+            <img
+              src="./assets/top-destination/caption (1).jpg"
+              alt="img2"
+              class="hoverimg"
+            />
+            <h1 class="award-container__img-msg-1">
+              Singapore <br />Singapore
+            </h1>
+          </div>
+          <div class="award-container__img-msg">
+            <img
+              src="./assets/top-destination/caption (2).jpg"
+              alt="img3"
+              class="hoverimg"
+            />
+            <h1 class="award-container__img-msg-1">Hanoi vietnam</h1>
+          </div>
+          <div class="award-container__img-msg">
+            <img
+              src="./assets/top-destination/caption (3).jpg"
+              alt="img"
+              class="hoverimg"
+            />
+            <h1 class="award-container__img-msg-1">Seoul South <br />Korea</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section 10 see the winner banner-->
+    <section class="banner-win">
+      <div class="banner-win-container overall">
+        <div class="banner-win-container__content">
+          <img src="./assets/top-destination/TC_badge_yellow.svg" alt="logo" />
+          <h1>
+            <strong
+              >Travellers' Choice <br />Awards Best of <br />the Best</strong
+            >
+          </h1>
+          <h2>
+            Among our top 1% of places, stays, <br />eats, and
+            experiences—decided by <br />you.
+          </h2>
+          <button>See the Winner</button>
+        </div>
+        <div class="banner-win-container__img">
+          <img src="./assets/top-destination/banner.jpeg" alt="banner" />
+        </div>
+      </div>
+    </section>
+
+    <!--section 11 footer-->
+    <section class="footer">
+      <div class="footer-cls cursor">
+        <div class="footer-container overall">
+          <div class="footer-container__flex1">
+            <div class="footer-container__content1">
+              <p>About Tripadvisor</p>
+              <p>About Us</p>
+              <p>Press</p>
+              <p>Resources and Policies</p>
+              <p>Careers</p>
+              <p>Trust & Safety</p>
+              <p>Contact us</p>
+              <p>Accessibility Statement</p>
+            </div>
+
+            <div class="footer-container__content2">
+              <p>Explore</p>
+              <p>Write a review</p>
+              <p>Add a Place</p>
+              <p>Join</p>
+              <p>Travellers' Choice</p>
+              <p>GreenLeaders</p>
+              <p>Help Centre</p>
+              <p>Travel Articles</p>
+            </div>
+
+            <div class="footer-container__content2">
+              <p>Do Business With Us</p>
+              <p>Owners & DMO/CVB</p>
+              <p>Business Advantage</p>
+              <p>Sponsored Placements</p>
+              <p>Access our Content API</p>
+              <p>Get The App</p>
+              <p>iPhone App</p>
+              <p>Android App</p>
+            </div>
+          </div>
+          <div class="footer-container__flex2">
+            <p>Tripadvisor Sites</p>
+            <p>Book tours and attraction tickets on Viator</p>
+          </div>
+        </div>
+
+        <!--footer 2-->
+        <div class="footer2 overall">
+          <div class="footer2-container">
+            <div class="footer2-content">
+              <img
+                src="./assets/top-destination/Tripadvisor_logoset_solid_green.svg"
+                alt="logo"
+              />
+
+              <div class="footer2-content1">
+                <p class="footer2-content1__p">
+                  &copy; 2024 Tripadvisor LLC All rights reserved.
+                </p>
+                <div class="overall-flex">
+                  <div class="footer2-content__flex1">
+                    <div class="footer2-content__flex1-content">
+                      <p>Terms of Use</p>
+                      <p>Privacy and Cookies Statement</p>
+                      <p>Cookie consent</p>
+                      <p>Site Map</p>
+                    </div>
+                    <div class="footer2-content__flex1-content2">
+                      <p>How the site works</p>
+                      <p>Contact us</p>
+                    </div>
+                  </div>
+                  <div class="footer2-content__flex2">
+                    <div class="footer2-content__flex2-btn1 hovergray">
+                      <p>₹ INR</p>
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="footer2-content__flex2-btn2 hovergray">
+                      <p>India</p>
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--footer 3-->
+        <div class="footer3 overall">
+          <div class="footer3__content">
+            <p>
+              This is the version of our website addressed to speakers of
+              English in India. If you are a resident of another country or
+              region, please select <br />the appropriate version of Tripadvisor
+              for your country or region in the drop-down menu. more
+            </p>
+            <div class="footer3__icon">
+              <img src="./assets/footer icon/facebook.png" alt="facebook" />
+              <img src="./assets/footer icon/twitter.png" alt="twitter" />
+              <img src="./assets/footer icon/pinterest.png" alt="pinterest" />
+              <img src="./assets/footer icon/instagram.png" alt="instagram" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
